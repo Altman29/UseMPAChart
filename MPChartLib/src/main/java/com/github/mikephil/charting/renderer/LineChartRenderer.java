@@ -254,6 +254,8 @@ public class LineChartRenderer extends LineRadarRenderer {
 
         mRenderPaint.setStyle(Paint.Style.STROKE);
 
+        mRenderPaint.setStrokeCap(Paint.Cap.ROUND);
+
         trans.pathValueToPixel(cubicPath);
 
         mBitmapCanvas.drawPath(cubicPath, mRenderPaint);
