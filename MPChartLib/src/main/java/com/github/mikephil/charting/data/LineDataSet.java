@@ -45,7 +45,7 @@ public class LineDataSet extends LineRadarDataSet<Entry> implements ILineDataSet
     /**
      * sets the intensity of the cubic lines
      */
-    private float mCubicIntensity = 0.2f;
+    private float mCubicIntensity = 0.16f;
 
     /**
      * the path effect of this DataSet that makes dashed lines possible
